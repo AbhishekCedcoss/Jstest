@@ -4,7 +4,7 @@ function decode(){
     // console.log("a".charCodeAt(0));
     for (var i = 0; i < input.length; i++) {
         console.log(input.charCodeAt(i)-1)
-        console.log(String.fromCharCode((input.charCodeAt(i)-1)));
+        document.getElementById("output").innerHTML += (String.fromCharCode((input.charCodeAt(i)-1)));
       }
       
 
